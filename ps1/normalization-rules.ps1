@@ -23,7 +23,7 @@ ForEach ($Row in $CSV) {
                     
                     $i += +1;
 
-                    write-Host " $i Normalizations rules have been processed.." -ForegroundColor Yellow -BackgroundColor DarkGreen
+                    write-Host " $i Normalizations rules have been processed..." -ForegroundColor Yellow -BackgroundColor DarkGreen
                     Write-Host ""
 
 }
