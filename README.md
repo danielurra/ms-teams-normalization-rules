@@ -35,6 +35,7 @@ ForEach ($Row in $CSV) {
 ## Normalization Rules use case
 Let's say you are moving users from and old PBX to MS Teams and your users are used to dial by extension (internally)<br>
 then you will need `Normalization rules` to translate each extension number into its correspondent E.164 formated number<br>
+![e164](https://github.com/danielurra/ms-teams-normalization-rules/assets/51704179/32a7cb34-1b01-492a-b85b-d4ea9d33faa8)<br>
 remember that MS Teams makes use of the E.164 format.<br>
 ## Powershell script execution completed
 ![Normalization-rules-script-running](https://github.com/danielurra/ms-teams-normalization-rules/assets/51704179/8525e6f6-b203-46bd-a054-5c71026ee8d2)<br>
