@@ -22,7 +22,7 @@ ForEach ($Row in $CSV) {
                     $string = "`$1"
                    
                                                           
-                    $noru=New-CsVoiceNormalizationRule -Parent Global -Description 'extensions dialing' -Name "NR $Ext_RAM" -Pattern "^($Ext_RAM\d*)$" -Translation "+1$DID_RAM;ext=$string" -IsInternalExtension $false -InMemory
+                    $noru=New-CsVoiceNormalizationRule -Parent Global -Description 'extensions dialing' -Name "NR $Ext_RAM" -Pattern "^($Ext_RAM)$" -Translation "+1$DID_RAM;ext=$string" -IsInternalExtension $false -InMemory
                     Set-CsTenantDialPlan -Identity Global -NormalizationRules @{add=$noru}
                     
                     $i += +1;
