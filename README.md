@@ -1,6 +1,6 @@
 # Normalization Rules (MS Teams)
 This small and simple script was used to bulk provision normalization rule for MS Teams.<br>
-The `.csv` file needed was uploaded and it has dummy data, please download it and fill it out with your own data<br>
+The `.csv` file needed was uploaded and it has dummy data, please download it and fill it out with your own data.<br>
 ```powershell
 Clear
 
