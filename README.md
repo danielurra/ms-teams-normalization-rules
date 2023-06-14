@@ -41,4 +41,8 @@ remember that MS Teams makes use of the E.164 format.<br>
 ![Normalization-rules-script-running](https://github.com/danielurra/ms-teams-normalization-rules/assets/51704179/8525e6f6-b203-46bd-a054-5c71026ee8d2)<br>
 ## MS Teams Adminstration Center - Normalization Rules successfully created
 ![Normalization-rules-admin-center](https://github.com/danielurra/ms-teams-normalization-rules/assets/51704179/47c2d1f8-a880-47b8-a63a-4cf4024e3416)<br>
+## Testing the rule
+To be 100% sure that your rule will produce an E.164 formatted phone number, do test the rule to see it actually works as expected.<br>
+![test-nr](https://github.com/danielurra/ms-teams-normalization-rules/assets/51704179/6f5b153c-a317-4361-98e0-5153241cfefb)
+
 
