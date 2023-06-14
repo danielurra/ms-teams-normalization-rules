@@ -1,5 +1,5 @@
 # Normalization Rules (MS Teams)
-This small and simple script was used to bulk provision normalization rule for MS Teams.<br>
+This small and simple script was used to bulk provision normalization rules for MS Teams dial plan.<br>
 The `.csv` file needed was uploaded and it has dummy data, please download it and fill it out with your own data.<br>
 ```powershell
 Clear
@@ -32,6 +32,10 @@ ForEach ($Row in $CSV) {
 
 }
 ```
+## Normalization Rules use case
+Let's say you are moving users from and old PBX to MS Teams and your users are used to dial by extension (internally)<br>
+then you will need Normalization rules to translate each extension number into its correspondent E.164 formated number<br>
+remember that MS Teams makes use of the E.164 format.<br>
 ## Powershell script execution completed
 ![Normalization-rules-script-running](https://github.com/danielurra/ms-teams-normalization-rules/assets/51704179/8525e6f6-b203-46bd-a054-5c71026ee8d2)<br>
 ## MS Teams Adminstration Center - Normalization Rules successfully created
